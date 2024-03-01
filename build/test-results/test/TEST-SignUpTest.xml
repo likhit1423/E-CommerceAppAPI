@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="SignUpTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2024-02-26T18:21:09" hostname="DESKTOP-QHRT35A" time="5.627">
+  <properties/>
+  <testcase name="test1_signIn" classname="SignUpTest" time="4.605"/>
+  <testcase name="test2_login" classname="SignUpTest" time="0.971"/>
+  <system-out><![CDATA[Request method:	POST
+Request URI:	https://www.apicademy.dev/api/auth/signup
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "FEY5dkLJ@outlook.com",
+    "password": "rZwB^4XX2*d0"
+}
+HTTP/1.1 201 Created
+Content-Type: application/json; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"a37-XP+OSrpdY9mGNfXDZibNbK3G0jw"
+X-Cloud-Trace-Context: 3a906932c922b26eec19ee4d2df2d1cb;o=1
+Date: Mon, 26 Feb 2024 18:21:14 GMT
+Server: Google Frontend
+Content-Length: 2615
+
+{
+    "data": {
+        "user": {
+            "id": "d0352713-a26f-4bb6-94db-399cc73ac537",
+            "aud": "authenticated",
+            "role": "authenticated",
+            "email": "fey5dklj@outlook.com",
+            "email_confirmed_at": "2024-02-26T18:21:14.586476336Z",
+            "phone": "",
+            "last_sign_in_at": "2024-02-26T18:21:14.588943519Z",
+            "app_metadata": {
+                "provider": "email",
+                "providers": [
+                    "email"
+                ]
+            },
+            "user_metadata": {
+                
+            },
+            "identities": [
+                {
+                    "identity_id": "f1f49126-f87f-4161-b68e-5d2488beb5d5",
+                    "id": "d0352713-a26f-4bb6-94db-399cc73ac537",
+                    "user_id": "d0352713-a26f-4bb6-94db-399cc73ac537",
+                    "identity_data": {
+                        "email": "fey5dklj@outlook.com",
+                        "email_verified": false,
+                        "phone_verified": false,
+                        "sub": "d0352713-a26f-4bb6-94db-399cc73ac537"
+                    },
+                    "provider": "email",
+                    "last_sign_in_at": "2024-02-26T18:21:14.583513801Z",
+                    "created_at": "2024-02-26T18:21:14.583564Z",
+                    "updated_at": "2024-02-26T18:21:14.583564Z",
+                    "email": "fey5dklj@outlook.com"
+                }
+            ],
+            "created_at": "2024-02-26T18:21:14.580707Z",
+            "updated_at": "2024-02-26T18:21:14.591074Z"
+        },
+        "session": {
+            "access_token": "eyJhbGciOiJIUzI1NiIsImtpZCI6ImV3UjBaUnlOMG5IRHE0RzYiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzA4OTc1Mjc0LCJpYXQiOjE3MDg5NzE2NzQsImlzcyI6Imh0dHBzOi8vbmFxbWh2ZnNkaGlnZXN2cnJqY2wuc3VwYWJhc2UuY28vYXV0aC92MSIsInN1YiI6ImQwMzUyNzEzLWEyNmYtNGJiNi05NGRiLTM5OWNjNzNhYzUzNyIsImVtYWlsIjoiZmV5NWRrbGpAb3V0bG9vay5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7fSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTcwODk3MTY3NH1dLCJzZXNzaW9uX2lkIjoiNDMwNGUzYjctZWJmZi00YTRjLTg1ZTgtNGNjMmQ1Mjc2OWM0In0.YO7mI_mrHMpNiH62p9-SURbnQo1zKYfBbrEim4-aUzM",
+            "token_type": "bearer",
+            "expires_in": 3600,
+            "expires_at": 1708975274,
+            "refresh_token": "g0dxQc4APqkCRiNPTiQr5A",
+            "user": {
+                "id": "d0352713-a26f-4bb6-94db-399cc73ac537",
+                "aud": "authenticated",
+                "role": "authenticated",
+                "email": "fey5dklj@outlook.com",
+                "email_confirmed_at": "2024-02-26T18:21:14.586476336Z",
+                "phone": "",
+                "last_sign_in_at": "2024-02-26T18:21:14.588943519Z",
+                "app_metadata": {
+                    "provider": "email",
+                    "providers": [
+                        "email"
+                    ]
+                },
+                "user_metadata": {
+                    
+                },
+                "identities": [
+                    {
+                        "identity_id": "f1f49126-f87f-4161-b68e-5d2488beb5d5",
+                        "id": "d0352713-a26f-4bb6-94db-399cc73ac537",
+                        "user_id": "d0352713-a26f-4bb6-94db-399cc73ac537",
+                        "identity_data": {
+                            "email": "fey5dklj@outlook.com",
+                            "email_verified": false,
+                            "phone_verified": false,
+                            "sub": "d0352713-a26f-4bb6-94db-399cc73ac537"
+                        },
+                        "provider": "email",
+                        "last_sign_in_at": "2024-02-26T18:21:14.583513801Z",
+                        "created_at": "2024-02-26T18:21:14.583564Z",
+                        "updated_at": "2024-02-26T18:21:14.583564Z",
+                        "email": "fey5dklj@outlook.com"
+                    }
+                ],
+                "created_at": "2024-02-26T18:21:14.580707Z",
+                "updated_at": "2024-02-26T18:21:14.591074Z"
+            }
+        }
+    }
+}
+Request method:	POST
+Request URI:	https://www.apicademy.dev/api/auth/login
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "email": "FEY5dkLJ@outlook.com",
+    "password": "rZwB^4XX2*d0"
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Vary: Accept-Encoding
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/"a83-4XMJoZz/f5ITUBmCtMxJhjaUcCc"
+Content-Encoding: gzip
+X-Cloud-Trace-Context: e81fdadd81d3ac71be5a70b5cc77bb66
+Date: Mon, 26 Feb 2024 18:21:15 GMT
+Server: Google Frontend
+Cache-Control: private
+Transfer-Encoding: chunked
+
+{
+    "data": {
+        "user": {
+            "id": "d0352713-a26f-4bb6-94db-399cc73ac537",
+            "aud": "authenticated",
+            "role": "authenticated",
+            "email": "fey5dklj@outlook.com",
+            "email_confirmed_at": "2024-02-26T18:21:14.586476Z",
+            "phone": "",
+            "confirmed_at": "2024-02-26T18:21:14.586476Z",
+            "last_sign_in_at": "2024-02-26T18:21:15.596874104Z",
+            "app_metadata": {
+                "provider": "email",
+                "providers": [
+                    "email"
+                ]
+            },
+            "user_metadata": {
+                
+            },
+            "identities": [
+                {
+                    "identity_id": "f1f49126-f87f-4161-b68e-5d2488beb5d5",
+                    "id": "d0352713-a26f-4bb6-94db-399cc73ac537",
+                    "user_id": "d0352713-a26f-4bb6-94db-399cc73ac537",
+                    "identity_data": {
+                        "email": "fey5dklj@outlook.com",
+                        "email_verified": false,
+                        "phone_verified": false,
+                        "sub": "d0352713-a26f-4bb6-94db-399cc73ac537"
+                    },
+                    "provider": "email",
+                    "last_sign_in_at": "2024-02-26T18:21:14.583513Z",
+                    "created_at": "2024-02-26T18:21:14.583564Z",
+                    "updated_at": "2024-02-26T18:21:14.583564Z",
+                    "email": "fey5dklj@outlook.com"
+                }
+            ],
+            "created_at": "2024-02-26T18:21:14.580707Z",
+            "updated_at": "2024-02-26T18:21:15.59883Z"
+        },
+        "session": {
+            "access_token": "eyJhbGciOiJIUzI1NiIsImtpZCI6ImV3UjBaUnlOMG5IRHE0RzYiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzA4OTc1Mjc1LCJpYXQiOjE3MDg5NzE2NzUsImlzcyI6Imh0dHBzOi8vbmFxbWh2ZnNkaGlnZXN2cnJqY2wuc3VwYWJhc2UuY28vYXV0aC92MSIsInN1YiI6ImQwMzUyNzEzLWEyNmYtNGJiNi05NGRiLTM5OWNjNzNhYzUzNyIsImVtYWlsIjoiZmV5NWRrbGpAb3V0bG9vay5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7fSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTcwODk3MTY3NX1dLCJzZXNzaW9uX2lkIjoiNTUyOWUxMzgtMmNmMy00MTBhLTg1ZGItYmY0MmVhNzFmZDI1In0.NvPVUSol_kZg1yRCKNdpEh-wXAH4jHEOZOv7aivW81Y",
+            "token_type": "bearer",
+            "expires_in": 3600,
+            "expires_at": 1708975275,
+            "refresh_token": "tg6BuaWB5KlE4O66Vw8k_g",
+            "user": {
+                "id": "d0352713-a26f-4bb6-94db-399cc73ac537",
+                "aud": "authenticated",
+                "role": "authenticated",
+                "email": "fey5dklj@outlook.com",
+                "email_confirmed_at": "2024-02-26T18:21:14.586476Z",
+                "phone": "",
+                "confirmed_at": "2024-02-26T18:21:14.586476Z",
+                "last_sign_in_at": "2024-02-26T18:21:15.596874104Z",
+                "app_metadata": {
+                    "provider": "email",
+                    "providers": [
+                        "email"
+                    ]
+                },
+                "user_metadata": {
+                    
+                },
+                "identities": [
+                    {
+                        "identity_id": "f1f49126-f87f-4161-b68e-5d2488beb5d5",
+                        "id": "d0352713-a26f-4bb6-94db-399cc73ac537",
+                        "user_id": "d0352713-a26f-4bb6-94db-399cc73ac537",
+                        "identity_data": {
+                            "email": "fey5dklj@outlook.com",
+                            "email_verified": false,
+                            "phone_verified": false,
+                            "sub": "d0352713-a26f-4bb6-94db-399cc73ac537"
+                        },
+                        "provider": "email",
+                        "last_sign_in_at": "2024-02-26T18:21:14.583513Z",
+                        "created_at": "2024-02-26T18:21:14.583564Z",
+                        "updated_at": "2024-02-26T18:21:14.583564Z",
+                        "email": "fey5dklj@outlook.com"
+                    }
+                ],
+                "created_at": "2024-02-26T18:21:14.580707Z",
+                "updated_at": "2024-02-26T18:21:15.59883Z"
+            }
+        }
+    }
+}
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

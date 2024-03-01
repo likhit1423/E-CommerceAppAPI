@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class SignUpTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class SignUpTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; SignUpTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">2</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">5.576s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">test1_signIn</td>
+<td class="success">4.605s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">test2_login</td>
+<td class="success">0.971s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Request method:	POST
+Request URI:	https://www.apicademy.dev/api/auth/signup
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;email&quot;: &quot;FEY5dkLJ@outlook.com&quot;,
+    &quot;password&quot;: &quot;rZwB^4XX2*d0&quot;
+}
+HTTP/1.1 201 Created
+Content-Type: application/json; charset=utf-8
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/&quot;a37-XP+OSrpdY9mGNfXDZibNbK3G0jw&quot;
+X-Cloud-Trace-Context: 3a906932c922b26eec19ee4d2df2d1cb;o=1
+Date: Mon, 26 Feb 2024 18:21:14 GMT
+Server: Google Frontend
+Content-Length: 2615
+
+{
+    &quot;data&quot;: {
+        &quot;user&quot;: {
+            &quot;id&quot;: &quot;d0352713-a26f-4bb6-94db-399cc73ac537&quot;,
+            &quot;aud&quot;: &quot;authenticated&quot;,
+            &quot;role&quot;: &quot;authenticated&quot;,
+            &quot;email&quot;: &quot;fey5dklj@outlook.com&quot;,
+            &quot;email_confirmed_at&quot;: &quot;2024-02-26T18:21:14.586476336Z&quot;,
+            &quot;phone&quot;: &quot;&quot;,
+            &quot;last_sign_in_at&quot;: &quot;2024-02-26T18:21:14.588943519Z&quot;,
+            &quot;app_metadata&quot;: {
+                &quot;provider&quot;: &quot;email&quot;,
+                &quot;providers&quot;: [
+                    &quot;email&quot;
+                ]
+            },
+            &quot;user_metadata&quot;: {
+                
+            },
+            &quot;identities&quot;: [
+                {
+                    &quot;identity_id&quot;: &quot;f1f49126-f87f-4161-b68e-5d2488beb5d5&quot;,
+                    &quot;id&quot;: &quot;d0352713-a26f-4bb6-94db-399cc73ac537&quot;,
+                    &quot;user_id&quot;: &quot;d0352713-a26f-4bb6-94db-399cc73ac537&quot;,
+                    &quot;identity_data&quot;: {
+                        &quot;email&quot;: &quot;fey5dklj@outlook.com&quot;,
+                        &quot;email_verified&quot;: false,
+                        &quot;phone_verified&quot;: false,
+                        &quot;sub&quot;: &quot;d0352713-a26f-4bb6-94db-399cc73ac537&quot;
+                    },
+                    &quot;provider&quot;: &quot;email&quot;,
+                    &quot;last_sign_in_at&quot;: &quot;2024-02-26T18:21:14.583513801Z&quot;,
+                    &quot;created_at&quot;: &quot;2024-02-26T18:21:14.583564Z&quot;,
+                    &quot;updated_at&quot;: &quot;2024-02-26T18:21:14.583564Z&quot;,
+                    &quot;email&quot;: &quot;fey5dklj@outlook.com&quot;
+                }
+            ],
+            &quot;created_at&quot;: &quot;2024-02-26T18:21:14.580707Z&quot;,
+            &quot;updated_at&quot;: &quot;2024-02-26T18:21:14.591074Z&quot;
+        },
+        &quot;session&quot;: {
+            &quot;access_token&quot;: &quot;eyJhbGciOiJIUzI1NiIsImtpZCI6ImV3UjBaUnlOMG5IRHE0RzYiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzA4OTc1Mjc0LCJpYXQiOjE3MDg5NzE2NzQsImlzcyI6Imh0dHBzOi8vbmFxbWh2ZnNkaGlnZXN2cnJqY2wuc3VwYWJhc2UuY28vYXV0aC92MSIsInN1YiI6ImQwMzUyNzEzLWEyNmYtNGJiNi05NGRiLTM5OWNjNzNhYzUzNyIsImVtYWlsIjoiZmV5NWRrbGpAb3V0bG9vay5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7fSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTcwODk3MTY3NH1dLCJzZXNzaW9uX2lkIjoiNDMwNGUzYjctZWJmZi00YTRjLTg1ZTgtNGNjMmQ1Mjc2OWM0In0.YO7mI_mrHMpNiH62p9-SURbnQo1zKYfBbrEim4-aUzM&quot;,
+            &quot;token_type&quot;: &quot;bearer&quot;,
+            &quot;expires_in&quot;: 3600,
+            &quot;expires_at&quot;: 1708975274,
+            &quot;refresh_token&quot;: &quot;g0dxQc4APqkCRiNPTiQr5A&quot;,
+            &quot;user&quot;: {
+                &quot;id&quot;: &quot;d0352713-a26f-4bb6-94db-399cc73ac537&quot;,
+                &quot;aud&quot;: &quot;authenticated&quot;,
+                &quot;role&quot;: &quot;authenticated&quot;,
+                &quot;email&quot;: &quot;fey5dklj@outlook.com&quot;,
+                &quot;email_confirmed_at&quot;: &quot;2024-02-26T18:21:14.586476336Z&quot;,
+                &quot;phone&quot;: &quot;&quot;,
+                &quot;last_sign_in_at&quot;: &quot;2024-02-26T18:21:14.588943519Z&quot;,
+                &quot;app_metadata&quot;: {
+                    &quot;provider&quot;: &quot;email&quot;,
+                    &quot;providers&quot;: [
+                        &quot;email&quot;
+                    ]
+                },
+                &quot;user_metadata&quot;: {
+                    
+                },
+                &quot;identities&quot;: [
+                    {
+                        &quot;identity_id&quot;: &quot;f1f49126-f87f-4161-b68e-5d2488beb5d5&quot;,
+                        &quot;id&quot;: &quot;d0352713-a26f-4bb6-94db-399cc73ac537&quot;,
+                        &quot;user_id&quot;: &quot;d0352713-a26f-4bb6-94db-399cc73ac537&quot;,
+                        &quot;identity_data&quot;: {
+                            &quot;email&quot;: &quot;fey5dklj@outlook.com&quot;,
+                            &quot;email_verified&quot;: false,
+                            &quot;phone_verified&quot;: false,
+                            &quot;sub&quot;: &quot;d0352713-a26f-4bb6-94db-399cc73ac537&quot;
+                        },
+                        &quot;provider&quot;: &quot;email&quot;,
+                        &quot;last_sign_in_at&quot;: &quot;2024-02-26T18:21:14.583513801Z&quot;,
+                        &quot;created_at&quot;: &quot;2024-02-26T18:21:14.583564Z&quot;,
+                        &quot;updated_at&quot;: &quot;2024-02-26T18:21:14.583564Z&quot;,
+                        &quot;email&quot;: &quot;fey5dklj@outlook.com&quot;
+                    }
+                ],
+                &quot;created_at&quot;: &quot;2024-02-26T18:21:14.580707Z&quot;,
+                &quot;updated_at&quot;: &quot;2024-02-26T18:21:14.591074Z&quot;
+            }
+        }
+    }
+}
+Request method:	POST
+Request URI:	https://www.apicademy.dev/api/auth/login
+Proxy:			&lt;none&gt;
+Request params:	&lt;none&gt;
+Query params:	&lt;none&gt;
+Form params:	&lt;none&gt;
+Path params:	&lt;none&gt;
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		&lt;none&gt;
+Multiparts:		&lt;none&gt;
+Body:
+{
+    &quot;email&quot;: &quot;FEY5dkLJ@outlook.com&quot;,
+    &quot;password&quot;: &quot;rZwB^4XX2*d0&quot;
+}
+HTTP/1.1 200 OK
+Content-Type: application/json; charset=utf-8
+Vary: Accept-Encoding
+X-Powered-By: Express
+Access-Control-Allow-Origin: *
+ETag: W/&quot;a83-4XMJoZz/f5ITUBmCtMxJhjaUcCc&quot;
+Content-Encoding: gzip
+X-Cloud-Trace-Context: e81fdadd81d3ac71be5a70b5cc77bb66
+Date: Mon, 26 Feb 2024 18:21:15 GMT
+Server: Google Frontend
+Cache-Control: private
+Transfer-Encoding: chunked
+
+{
+    &quot;data&quot;: {
+        &quot;user&quot;: {
+            &quot;id&quot;: &quot;d0352713-a26f-4bb6-94db-399cc73ac537&quot;,
+            &quot;aud&quot;: &quot;authenticated&quot;,
+            &quot;role&quot;: &quot;authenticated&quot;,
+            &quot;email&quot;: &quot;fey5dklj@outlook.com&quot;,
+            &quot;email_confirmed_at&quot;: &quot;2024-02-26T18:21:14.586476Z&quot;,
+            &quot;phone&quot;: &quot;&quot;,
+            &quot;confirmed_at&quot;: &quot;2024-02-26T18:21:14.586476Z&quot;,
+            &quot;last_sign_in_at&quot;: &quot;2024-02-26T18:21:15.596874104Z&quot;,
+            &quot;app_metadata&quot;: {
+                &quot;provider&quot;: &quot;email&quot;,
+                &quot;providers&quot;: [
+                    &quot;email&quot;
+                ]
+            },
+            &quot;user_metadata&quot;: {
+                
+            },
+            &quot;identities&quot;: [
+                {
+                    &quot;identity_id&quot;: &quot;f1f49126-f87f-4161-b68e-5d2488beb5d5&quot;,
+                    &quot;id&quot;: &quot;d0352713-a26f-4bb6-94db-399cc73ac537&quot;,
+                    &quot;user_id&quot;: &quot;d0352713-a26f-4bb6-94db-399cc73ac537&quot;,
+                    &quot;identity_data&quot;: {
+                        &quot;email&quot;: &quot;fey5dklj@outlook.com&quot;,
+                        &quot;email_verified&quot;: false,
+                        &quot;phone_verified&quot;: false,
+                        &quot;sub&quot;: &quot;d0352713-a26f-4bb6-94db-399cc73ac537&quot;
+                    },
+                    &quot;provider&quot;: &quot;email&quot;,
+                    &quot;last_sign_in_at&quot;: &quot;2024-02-26T18:21:14.583513Z&quot;,
+                    &quot;created_at&quot;: &quot;2024-02-26T18:21:14.583564Z&quot;,
+                    &quot;updated_at&quot;: &quot;2024-02-26T18:21:14.583564Z&quot;,
+                    &quot;email&quot;: &quot;fey5dklj@outlook.com&quot;
+                }
+            ],
+            &quot;created_at&quot;: &quot;2024-02-26T18:21:14.580707Z&quot;,
+            &quot;updated_at&quot;: &quot;2024-02-26T18:21:15.59883Z&quot;
+        },
+        &quot;session&quot;: {
+            &quot;access_token&quot;: &quot;eyJhbGciOiJIUzI1NiIsImtpZCI6ImV3UjBaUnlOMG5IRHE0RzYiLCJ0eXAiOiJKV1QifQ.eyJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzA4OTc1Mjc1LCJpYXQiOjE3MDg5NzE2NzUsImlzcyI6Imh0dHBzOi8vbmFxbWh2ZnNkaGlnZXN2cnJqY2wuc3VwYWJhc2UuY28vYXV0aC92MSIsInN1YiI6ImQwMzUyNzEzLWEyNmYtNGJiNi05NGRiLTM5OWNjNzNhYzUzNyIsImVtYWlsIjoiZmV5NWRrbGpAb3V0bG9vay5jb20iLCJwaG9uZSI6IiIsImFwcF9tZXRhZGF0YSI6eyJwcm92aWRlciI6ImVtYWlsIiwicHJvdmlkZXJzIjpbImVtYWlsIl19LCJ1c2VyX21ldGFkYXRhIjp7fSwicm9sZSI6ImF1dGhlbnRpY2F0ZWQiLCJhYWwiOiJhYWwxIiwiYW1yIjpbeyJtZXRob2QiOiJwYXNzd29yZCIsInRpbWVzdGFtcCI6MTcwODk3MTY3NX1dLCJzZXNzaW9uX2lkIjoiNTUyOWUxMzgtMmNmMy00MTBhLTg1ZGItYmY0MmVhNzFmZDI1In0.NvPVUSol_kZg1yRCKNdpEh-wXAH4jHEOZOv7aivW81Y&quot;,
+            &quot;token_type&quot;: &quot;bearer&quot;,
+            &quot;expires_in&quot;: 3600,
+            &quot;expires_at&quot;: 1708975275,
+            &quot;refresh_token&quot;: &quot;tg6BuaWB5KlE4O66Vw8k_g&quot;,
+            &quot;user&quot;: {
+                &quot;id&quot;: &quot;d0352713-a26f-4bb6-94db-399cc73ac537&quot;,
+                &quot;aud&quot;: &quot;authenticated&quot;,
+                &quot;role&quot;: &quot;authenticated&quot;,
+                &quot;email&quot;: &quot;fey5dklj@outlook.com&quot;,
+                &quot;email_confirmed_at&quot;: &quot;2024-02-26T18:21:14.586476Z&quot;,
+                &quot;phone&quot;: &quot;&quot;,
+                &quot;confirmed_at&quot;: &quot;2024-02-26T18:21:14.586476Z&quot;,
+                &quot;last_sign_in_at&quot;: &quot;2024-02-26T18:21:15.596874104Z&quot;,
+                &quot;app_metadata&quot;: {
+                    &quot;provider&quot;: &quot;email&quot;,
+                    &quot;providers&quot;: [
+                        &quot;email&quot;
+                    ]
+                },
+                &quot;user_metadata&quot;: {
+                    
+                },
+                &quot;identities&quot;: [
+                    {
+                        &quot;identity_id&quot;: &quot;f1f49126-f87f-4161-b68e-5d2488beb5d5&quot;,
+                        &quot;id&quot;: &quot;d0352713-a26f-4bb6-94db-399cc73ac537&quot;,
+                        &quot;user_id&quot;: &quot;d0352713-a26f-4bb6-94db-399cc73ac537&quot;,
+                        &quot;identity_data&quot;: {
+                            &quot;email&quot;: &quot;fey5dklj@outlook.com&quot;,
+                            &quot;email_verified&quot;: false,
+                            &quot;phone_verified&quot;: false,
+                            &quot;sub&quot;: &quot;d0352713-a26f-4bb6-94db-399cc73ac537&quot;
+                        },
+                        &quot;provider&quot;: &quot;email&quot;,
+                        &quot;last_sign_in_at&quot;: &quot;2024-02-26T18:21:14.583513Z&quot;,
+                        &quot;created_at&quot;: &quot;2024-02-26T18:21:14.583564Z&quot;,
+                        &quot;updated_at&quot;: &quot;2024-02-26T18:21:14.583564Z&quot;,
+                        &quot;email&quot;: &quot;fey5dklj@outlook.com&quot;
+                    }
+                ],
+                &quot;created_at&quot;: &quot;2024-02-26T18:21:14.580707Z&quot;,
+                &quot;updated_at&quot;: &quot;2024-02-26T18:21:15.59883Z&quot;
+            }
+        }
+    }
+}
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 7.0</a> at 26-Feb-2024, 11:51:15 pm</p>
+</div>
+</div>
+</body>
+</html>
